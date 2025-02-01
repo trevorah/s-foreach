@@ -1,0 +1,36 @@
+{
+  "name": "s-foreach",
+  "version": "1.0.0",
+  "description": "forEach for web streams (with concurrency support)",
+  "keywords": [
+    "web streams",
+    "streams",
+    "forEach",
+    "concurrency",
+    "async",
+    "WritableStream"
+  ],
+  "homepage": "https://github.com/trevorah/s-foreach#readme",
+  "bugs": {
+    "url": "https://github.com/trevorah/s-foreach/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorah/s-foreach.git"
+  },
+  "license": "MIT",
+  "author": "Andy Trevorah <andy@trevorah.net>",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "p-limit": "^6.2.0",
+    "s-compose": "^1.0.1"
+  }
+}
